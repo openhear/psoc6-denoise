@@ -13,7 +13,7 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="AudioStream\I2S_AudioStream\TopDesign">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="AudioStream\I2S_AudioStream\CM4 (Core 1)\Source Files\main_cm4.c">
 <ExpandedNodeIds>
 <v>AudioStream</v>
 <v>AudioStream\I2S_AudioStream</v>
@@ -78,12 +78,16 @@
 <v>AudioStream\I2S_AudioStream\Shared Files\system_psoc63.h</v>
 <v>AudioStream\I2S_AudioStream\Generated_Source</v>
 <v>AudioStream\I2S_AudioStream\Generated_Source\PSoC6</v>
-<v>AudioStream\I2S_AudioStream\Generated_Source\PSoC6\pdl</v>
-<v>AudioStream\I2S_AudioStream\Generated_Source\PSoC6\pdl\devices</v>
-<v>AudioStream\I2S_AudioStream\Generated_Source\PSoC6\pdl\devices\psoc6</v>
-<v>AudioStream\I2S_AudioStream\Generated_Source\PSoC6\Pins and Interrupts</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
+<v>AudioStream</v>
+<v>AudioStream\I2S_AudioStream</v>
+<v>AudioStream\I2S_AudioStream\TopDesign</v>
+<v>AudioStream\I2S_AudioStream\I2S_AudioStream.cydwr</v>
+<v>AudioStream\I2S_AudioStream\I2S_AudioStream.cydwr\Pins</v>
+<v>AudioStream\I2S_AudioStream\I2S_AudioStream.cydwr\Analog</v>
+<v>AudioStream\I2S_AudioStream\I2S_AudioStream.cydwr\DMA</v>
+<v>AudioStream\I2S_AudioStream\I2S_AudioStream.cydwr\Clocks</v>
 <v>AudioStream\I2S_AudioStream\I2S_AudioStream.cydwr\Interrupts</v>
 <v>AudioStream\I2S_AudioStream\I2S_AudioStream.cydwr\System</v>
 <v>AudioStream\I2S_AudioStream\I2S_AudioStream.cydwr\Directives</v>
@@ -106,19 +110,8 @@
 <v>AudioStream\I2S_AudioStream\Generated_Source</v>
 <v>AudioStream\I2S_AudioStream\Generated_Source\PSoC6</v>
 <v>AudioStream\I2S_AudioStream\Generated_Source\PSoC6\pdl</v>
-<v>AudioStream\I2S_AudioStream\Generated_Source\PSoC6\pdl\cmsis</v>
-<v>AudioStream\I2S_AudioStream\Generated_Source\PSoC6\pdl\devices</v>
-<v>AudioStream\I2S_AudioStream\Generated_Source\PSoC6\pdl\devices\psoc6</v>
-<v>AudioStream\I2S_AudioStream\Generated_Source\PSoC6\pdl\devices\psoc6\ip</v>
-<v>AudioStream\I2S_AudioStream\Generated_Source\PSoC6\pdl\devices\psoc6\psoc63</v>
-<v>AudioStream\I2S_AudioStream\Generated_Source\PSoC6\pdl\drivers</v>
-<v>AudioStream\I2S_AudioStream\Generated_Source\PSoC6\pdl\middleware</v>
 <v>AudioStream\I2S_AudioStream\Generated_Source\PSoC6\I2S</v>
 <v>AudioStream\I2S_AudioStream\Generated_Source\PSoC6\Pins and Interrupts</v>
-<v>AudioStream\I2S_AudioStream\Generated_Source\PSoC6\Pins and Interrupts\cyfitter_gpio.h</v>
-<v>AudioStream\I2S_AudioStream\Generated_Source\PSoC6\Pins and Interrupts\cyfitter_sysint.h</v>
-<v>AudioStream\I2S_AudioStream\Generated_Source\PSoC6\Pins and Interrupts\cyfitter_sysint_cfg.c</v>
-<v>AudioStream\I2S_AudioStream\Generated_Source\PSoC6\Pins and Interrupts\cyfitter_sysint_cfg.h</v>
 <v>AudioStream\I2S_AudioStream\Generated_Source\PSoC6\cycodeshareexport.ld</v>
 <v>AudioStream\I2S_AudioStream\Generated_Source\PSoC6\cycodeshareimport.ld</v>
 <v>AudioStream\I2S_AudioStream\Generated_Source\PSoC6\cycodeshareimport.scat</v>
@@ -154,39 +147,6 @@
 <v>AudioStream\I2S_AudioStream</v>
 <v>AudioStream\I2S_AudioStream\CortexM0p</v>
 <v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541</v>
-<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Debug</v>
-<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Debug\Listing Files</v>
-<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_clk.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_efuse.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_flash.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_gpio.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_i2s.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ipc_config.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ipc_drv.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ipc_pipe.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ipc_sema.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_lvd.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_profile.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_prot.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_sysanalog.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_sysclk.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_sysint.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_syslib.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_syslib_gcc.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_syspm.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_systick.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_trigmux.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_wdt.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Debug\Listing Files\cyfitter_sysint_cfg.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Debug\Listing Files\I2S.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Debug\Listing Files\main_cm0p.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Debug\Listing Files\startup_psoc63_cm0plus.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Debug\Listing Files\system_psoc63_cm0plus.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Debug\I2S_AudioStream.elf</v>
-<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Debug\I2S_AudioStream.hex</v>
-<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Debug\I2S_AudioStream.map</v>
 <v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Release</v>
 <v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Release\Listing Files</v>
 <v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Release\Listing Files\cy_ble_clk.lst</v>
@@ -222,44 +182,6 @@
 <v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Release\I2S_AudioStream.map</v>
 <v>AudioStream\I2S_AudioStream\CortexM4</v>
 <v>AudioStream\I2S_AudioStream\CortexM4\ARM_GCC_541</v>
-<v>AudioStream\I2S_AudioStream\CortexM4\ARM_GCC_541\Debug</v>
-<v>AudioStream\I2S_AudioStream\CortexM4\ARM_GCC_541\Debug\Listing Files</v>
-<v>AudioStream\I2S_AudioStream\CortexM4\ARM_GCC_541\Debug\Listing Files\celt_lpc.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ble_clk.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_efuse.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_flash.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_gpio.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_i2s.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ipc_config.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ipc_drv.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ipc_pipe.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_ipc_sema.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_lvd.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_profile.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_prot.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_sysanalog.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_sysclk.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_sysint.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_syslib.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_syslib_gcc.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_syspm.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_systick.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_trigmux.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM4\ARM_GCC_541\Debug\Listing Files\cy_wdt.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM4\ARM_GCC_541\Debug\Listing Files\cyfitter_sysint_cfg.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM4\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM4\ARM_GCC_541\Debug\Listing Files\denoise.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM4\ARM_GCC_541\Debug\Listing Files\I2S.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM4\ARM_GCC_541\Debug\Listing Files\kiss_fft.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM4\ARM_GCC_541\Debug\Listing Files\main_cm4.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM4\ARM_GCC_541\Debug\Listing Files\pitch.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM4\ARM_GCC_541\Debug\Listing Files\rnn.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM4\ARM_GCC_541\Debug\Listing Files\rnn_data.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM4\ARM_GCC_541\Debug\Listing Files\startup_psoc63_cm4.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM4\ARM_GCC_541\Debug\Listing Files\system_psoc63_cm4.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM4\ARM_GCC_541\Debug\I2S_AudioStream.elf</v>
-<v>AudioStream\I2S_AudioStream\CortexM4\ARM_GCC_541\Debug\I2S_AudioStream.hex</v>
-<v>AudioStream\I2S_AudioStream\CortexM4\ARM_GCC_541\Debug\I2S_AudioStream.map</v>
 <v>AudioStream\I2S_AudioStream\CortexM4\ARM_GCC_541\Release</v>
 <v>AudioStream\I2S_AudioStream\CortexM4\ARM_GCC_541\Release\Listing Files</v>
 <v>AudioStream\I2S_AudioStream\CortexM4\ARM_GCC_541\Release\Listing Files\celt_lpc.lst</v>
@@ -307,39 +229,6 @@
 <v>AudioStream\I2S_AudioStream</v>
 <v>AudioStream\I2S_AudioStream\CortexM0p</v>
 <v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541</v>
-<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Debug</v>
-<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Debug\Listing Files</v>
-<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ble_clk.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_efuse.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_flash.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_gpio.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_i2s.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ipc_config.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ipc_drv.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ipc_pipe.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_ipc_sema.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_lvd.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_profile.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_prot.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_sysanalog.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_sysclk.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_sysint.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_syslib.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_syslib_gcc.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_syspm.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_systick.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_trigmux.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Debug\Listing Files\cy_wdt.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Debug\Listing Files\cyfitter_sysint_cfg.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Debug\Listing Files\I2S.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Debug\Listing Files\main_cm0p.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Debug\Listing Files\startup_psoc63_cm0plus.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Debug\Listing Files\system_psoc63_cm0plus.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Debug\I2S_AudioStream.elf</v>
-<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Debug\I2S_AudioStream.hex</v>
-<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Debug\I2S_AudioStream.map</v>
 <v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Release</v>
 <v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Release\Listing Files</v>
 <v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Release\Listing Files\cy_ble_clk.lst</v>
@@ -351,6 +240,39 @@
 <v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Release\Listing Files\cy_ipc_drv.lst</v>
 <v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Release\Listing Files\cy_ipc_pipe.lst</v>
 <v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Release\Listing Files\cy_ipc_sema.lst</v>
+<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Release\Listing Files\cy_lvd.lst</v>
+<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Release\Listing Files\cy_profile.lst</v>
+<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Release\Listing Files\cy_prot.lst</v>
+<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Release\Listing Files\cy_sysanalog.lst</v>
+<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Release\Listing Files\cy_sysclk.lst</v>
+<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Release\Listing Files\cy_sysint.lst</v>
+<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Release\Listing Files\cy_syslib.lst</v>
+<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Release\Listing Files\cy_syslib_gcc.lst</v>
+<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Release\Listing Files\cy_syspm.lst</v>
+<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Release\Listing Files\cy_systick.lst</v>
+<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Release\Listing Files\cy_trigmux.lst</v>
+<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Release\Listing Files\cy_wdt.lst</v>
+<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Release\Listing Files\cyfitter_cfg.lst</v>
+<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Release\Listing Files\cyfitter_sysint_cfg.lst</v>
+<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Release\Listing Files\cymetadata.lst</v>
+<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Release\Listing Files\I2S.lst</v>
+<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Release\Listing Files\main_cm0p.lst</v>
+<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Release\Listing Files\startup_psoc63_cm0plus.lst</v>
+<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Release\Listing Files\system_psoc63_cm0plus.lst</v>
+<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Release\I2S_AudioStream.elf</v>
+<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Release\I2S_AudioStream.hex</v>
+<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Release\I2S_AudioStream.map</v>
+<v>AudioStream\I2S_AudioStream\CortexM4</v>
+<v>AudioStream\I2S_AudioStream\CortexM4\ARM_GCC_541</v>
+<v>AudioStream\I2S_AudioStream\CortexM4\ARM_GCC_541\Release</v>
+<v>AudioStream\I2S_AudioStream\CortexM4\ARM_GCC_541\Release\Listing Files</v>
+<v>AudioStream\I2S_AudioStream\CortexM4\ARM_GCC_541\Release\Listing Files\celt_lpc.lst</v>
+<v>AudioStream\I2S_AudioStream\CortexM4\ARM_GCC_541\Release\Listing Files\cy_ble_clk.lst</v>
+<v>AudioStream\I2S_AudioStream\CortexM4\ARM_GCC_541\Release\Listing Files\cy_efuse.lst</v>
+<v>AudioStream\I2S_AudioStream\CortexM4\ARM_GCC_541\Release\Listing Files\cy_flash.lst</v>
+<v>AudioStream\I2S_AudioStream\CortexM4\ARM_GCC_541\Release\Listing Files\cy_gpio.lst</v>
+<v>AudioStream\I2S_AudioStream\CortexM4\ARM_GCC_541\Release\Listing Files\cy_i2s.lst</v>
+<v>AudioStream\I2S_AudioStream\CortexM4\ARM_GCC_541\Release\Listing Files\cy_ipc_config.lst</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStates>
@@ -409,10 +331,6 @@
 <Unloaded />
 <OpenDocs>
 <name v=".\I2S_AudioStream.cydsn\main_cm4.c" />
-<name v=".\I2S_AudioStream.cydsn\TopDesign\TopDesign.cysch" />
-<name v=".\I2S_AudioStream.cydsn\I2S_AudioStream.cydwr" />
-<name v="..\..\..\Documents\PSoC Creator\CE216795_DualCoreBlinky01\CE216795_DualCoreBlinky01.cydsn\main_cm4.c" />
-<name v=".\I2S_AudioStream.cydsn\Generated_Source\PSoC6\I2S.c" />
 </OpenDocs>
 <OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
 
@@ -420,7 +338,7 @@
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1298, 760" SelectedTabbedMdiWindow="aff7ef96-21e0-417e-9c07-81786b193e4a"><DocumentWindow Key="C:\Users\connor\Downloads\workspace_IS_Audio_v0\workspace1\I2S_AudioStream.cydsn\main_cm4.c" Guid="aff7ef96-21e0-417e-9c07-81786b193e4a" /><DocumentWindow Key="C:\Users\connor\Downloads\workspace_IS_Audio_v0\workspace1\I2S_AudioStream.cydsn\TopDesign\TopDesign.cysch" Guid="69ad27c6-7d25-4935-8362-ac62d7d4b785" /><DocumentWindow Key="C:\Users\connor\Downloads\workspace_IS_Audio_v0\workspace1\I2S_AudioStream.cydsn\I2S_AudioStream.cydwr" Guid="963d0916-cda0-40e2-81aa-7f666b9a6678" /><DocumentWindow Key="C:\Users\connor\Documents\PSoC Creator\CE216795_DualCoreBlinky01\CE216795_DualCoreBlinky01.cydsn\main_cm4.c" Guid="ed0110ab-0891-43b8-957d-1915e64c5136" /><DocumentWindow Key="C:\Users\connor\Downloads\workspace_IS_Audio_v0\workspace1\I2S_AudioStream.cydsn\Generated_Source\PSoC6\I2S.c" Guid="1c3615c2-a527-4b3f-b12e-ece0fccb1fec" /><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="ece15b2e-76f7-407e-8c3c-8e8989bc86e0" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1298, 629" SelectedTabbedMdiWindow="45f4722a-9541-43a2-95d6-bd51bd61c4db"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="ece15b2e-76f7-407e-8c3c-8e8989bc86e0" /><DocumentWindow Key="C:\Users\connor\Documents\PSoC Creator\psoc6-denoise\workspace1\I2S_AudioStream.cydsn\main_cm4.c" Guid="45f4722a-9541-43a2-95d6-bd51bd61c4db" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="Release" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
