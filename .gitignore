@@ -1,0 +1,6 @@
+**/*.cydsn/codegentemp/**
+**/*.cydsn/Generated_Source/**
+**/Release/**
+**/Debug/**
+BUILD.log
+
