@@ -3,4 +3,5 @@
 **/Release/**
 **/Debug/**
 BUILD.log
+*.swp
 
