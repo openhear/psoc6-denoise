@@ -41,7 +41,7 @@
 #include "rnn_data.h"
 
 #define FRAME_SIZE_SHIFT 2
-#define FRAME_SIZE (120<<FRAME_SIZE_SHIFT)
+#define FRAME_SIZE (120<<FRAME_SIZE_SHIFT) // 480
 #define WINDOW_SIZE (2*FRAME_SIZE)
 #define FREQ_SIZE (FRAME_SIZE + 1)
 

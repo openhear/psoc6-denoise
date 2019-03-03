@@ -16,10 +16,12 @@
       <Data key="0d139181-5af7-4d97-bfba-d27b21ab5498" value="TX_SCK" />
       <Data key="4cca878b-77b5-471d-8aeb-ad6925202455" value="RX_SDI" />
       <Data key="6a49f028-1544-4baf-aa62-323492f83873" value="RX_SCK" />
+      <Data key="791cf9fc-aa34-46e6-9f1a-2e5ffdd30291" value="RedLed" />
       <Data key="44076367-f1da-42ab-bbdd-8468a0b00db5" value="MCLK" />
       <Data key="a61270bc-07ec-447d-ac9e-34cfe85c30e9" value="TX_SDO" />
       <Data key="c2ee9f85-9b66-4584-9406-8f8a0f128235" value="TX_WS" />
       <Data key="deb9cd72-265d-40d6-87f0-03c6cf816f2b" value="RX_WS" />
+      <Data key="ede9ceeb-2d85-4081-9196-e466a8b26141" value="BlueLed" />
     </Group>
   </Group>
   <Group key="Interrupt">
@@ -680,6 +682,11 @@
         <Data key="Port Format" value="5,4" />
       </Group>
     </Group>
+    <Group key="791cf9fc-aa34-46e6-9f1a-2e5ffdd30291">
+      <Group key="0">
+        <Data key="Port Format" value="0,3" />
+      </Group>
+    </Group>
     <Group key="44076367-f1da-42ab-bbdd-8468a0b00db5">
       <Group key="0">
         <Data key="Port Format" value="5,0" />
@@ -701,6 +708,11 @@
     <Group key="deb9cd72-265d-40d6-87f0-03c6cf816f2b">
       <Group key="0">
         <Data key="Port Format" value="5,5" />
+      </Group>
+    </Group>
+    <Group key="ede9ceeb-2d85-4081-9196-e466a8b26141">
+      <Group key="0">
+        <Data key="Port Format" value="11,1" />
       </Group>
     </Group>
     <Group key="UnAssigned Pins" />

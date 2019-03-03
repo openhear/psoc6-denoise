@@ -1,16 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <blockRegMap version="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://cypress.com/xsd/cyblockregmap cyblockregmap.xsd" xmlns="http://cypress.com/xsd/cyblockregmap">
-  <block name="RX_SCK" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="TX_WS" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="RX_SDI" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="R_1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="D_1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
   <block name="RX_WS" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="TX_SDO" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="MCLK" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="I2S_isr" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="RedLed" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="PWR_1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="D_2" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="PWR_2" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="BlueLed" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="R_2" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
   <block name="AudioClk" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="TX_SCK" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
   <block name="I2S" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false">
     <block name="HFClk1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
     <block name="cy_mxs40_i2s" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
   </block>
+  <block name="I2S_isr" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="MCLK" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="TX_SCK" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="RX_SDI" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="TX_SDO" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="TX_WS" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="RX_SCK" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
 </blockRegMap>

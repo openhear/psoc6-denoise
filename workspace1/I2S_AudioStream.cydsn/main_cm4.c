@@ -56,6 +56,9 @@ void I2S_isr_Handler(void)
     if (fillindex > MAX_INDEX) {
         fillindex = 0;
         INC_BUFFER(ringBufferWrite);
+        if (ringBufferWrite == 0) {
+            Cy_GPIO_Inv(BlueLed_PORT, BlueLed_NUM);
+        }
     }
     
     
@@ -100,6 +103,7 @@ int main(void)
     ringBufferProcess = ringBufferWrite;
     ringBufferOut = 0;
     ringBufferReadyOut = -1;
+    printf("starting");
      /* Initialize the I2S interrupt */
     Cy_SysInt_Init(&I2S_isr_cfg, I2S_isr_Handler);
     NVIC_EnableIRQ(I2S_isr_cfg.intrSrc);
@@ -112,7 +116,7 @@ int main(void)
     
     /* Start the I2S interface */
     I2S_Start();
-
+    
     while(1)
     {
         debugCount += 1;
@@ -121,10 +125,14 @@ int main(void)
             starting = 0;    
         }
         // then let it catch up with processing the audio buffers
-        if ((ringBufferProcess != ringBufferWrite)) { // && starting == 0) {
+        if ((ringBufferProcess != ringBufferWrite) && starting == 0) {
+            
             rnnoise_process_frame(st, ringBuffer[ringBufferProcess], ringBuffer[ringBufferProcess]);
             ringBufferReadyOut = ringBufferProcess;
             INC_BUFFER(ringBufferProcess);
+            if (ringBufferProcess == 0) {
+                Cy_GPIO_Inv(RedLed_PORT, RedLed_NUM);
+            }
         } 
     /* Check if the I2S ISR is disabled */
         if (NVIC_GetEnableIRQ(I2S_isr_cfg.intrSrc))
@@ -137,7 +145,7 @@ int main(void)
             NVIC_EnableIRQ(I2S_isr_cfg.intrSrc);
         }
         
-        Cy_SysLib_DelayUs(100/*msec*/);
+        Cy_SysLib_DelayUs(100);
     }
 }
 
