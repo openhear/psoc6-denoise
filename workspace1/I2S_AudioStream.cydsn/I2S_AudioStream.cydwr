@@ -19,6 +19,8 @@
       <Data key="791cf9fc-aa34-46e6-9f1a-2e5ffdd30291" value="RedLed" />
       <Data key="44076367-f1da-42ab-bbdd-8468a0b00db5" value="MCLK" />
       <Data key="a61270bc-07ec-447d-ac9e-34cfe85c30e9" value="TX_SDO" />
+      <Data key="b0efb507-b9af-4a2b-9bd8-152ab1116fee/65f3af6c-759b-4ccb-8c66-5c95ba1f5f4f" value="UART_1_tx" />
+      <Data key="b0efb507-b9af-4a2b-9bd8-152ab1116fee/b7e8018e-1ef7-49c0-b5a5-61641a03e31c" value="UART_1_rx" />
       <Data key="c2ee9f85-9b66-4584-9406-8f8a0f128235" value="TX_WS" />
       <Data key="deb9cd72-265d-40d6-87f0-03c6cf816f2b" value="RX_WS" />
       <Data key="ede9ceeb-2d85-4081-9196-e466a8b26141" value="BlueLed" />
@@ -715,7 +717,14 @@
         <Data key="Port Format" value="11,1" />
       </Group>
     </Group>
-    <Group key="UnAssigned Pins" />
+    <Group key="UnAssigned Pins">
+      <Group key="b0efb507-b9af-4a2b-9bd8-152ab1116fee/65f3af6c-759b-4ccb-8c66-5c95ba1f5f4f">
+        <Data key="0" value="131967475640798367" />
+      </Group>
+      <Group key="b0efb507-b9af-4a2b-9bd8-152ab1116fee/b7e8018e-1ef7-49c0-b5a5-61641a03e31c">
+        <Data key="0" value="131967484674887158" />
+      </Group>
+    </Group>
     <Group key="Unlocked Pins" />
   </Group>
   <Group key="PlaceDir">

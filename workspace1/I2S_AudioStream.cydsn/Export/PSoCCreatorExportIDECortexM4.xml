@@ -89,6 +89,9 @@
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC6\cycodeshareimport.ld</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC6\cycodeshareexport.ld</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC6\cycodeshareimport.scat</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC6\Counter_1.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC6\Counter_1.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC6\Clock_1.h</File>
         </Files>
       </Folder>
       <Folder BuildType="STRICT" Path="C:\Users\connor\Documents\PSoC Creator\psoc6-denoise\workspace1\I2S_AudioStream.cydsn\Generated_Source\PSoC6\pdl\cmsis\include">
@@ -217,6 +220,17 @@
         <Files Root="C:\Users\connor\Documents\PSoC Creator\psoc6-denoise\workspace1\I2S_AudioStream.cydsn">
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC6\pdl\drivers\peripheral\lvd\cy_lvd.c</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC6\pdl\drivers\peripheral\lvd\cy_lvd.h</File>
+        </Files>
+      </Folder>
+      <Folder BuildType="STRICT" Path="C:\Users\connor\Documents\PSoC Creator\psoc6-denoise\workspace1\I2S_AudioStream.cydsn\Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm">
+        <Files Root="C:\Users\connor\Documents\PSoC Creator\psoc6-denoise\workspace1\I2S_AudioStream.cydsn">
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm\cy_tcpwm.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm\cy_tcpwm_counter.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm\cy_tcpwm_counter.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm\cy_tcpwm_pwm.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm\cy_tcpwm_pwm.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm\cy_tcpwm_quaddec.h</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC6\pdl\drivers\peripheral\tcpwm\cy_tcpwm_quaddec.c</File>
         </Files>
       </Folder>
       <Folder BuildType="STRICT" Path="C:\Users\connor\Documents\PSoC Creator\psoc6-denoise\workspace1\I2S_AudioStream.cydsn\Generated_Source\PSoC6\pdl\middleware\ble">

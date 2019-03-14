@@ -13,7 +13,7 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="AudioStream\I2S_AudioStream\TopDesign">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="AudioStream\I2S_AudioStream\I2S_AudioStream.cydwr\Analog">
 <ExpandedNodeIds>
 <v>AudioStream</v>
 <v>AudioStream\I2S_AudioStream</v>
@@ -110,6 +110,8 @@
 <v>AudioStream\I2S_AudioStream\Generated_Source</v>
 <v>AudioStream\I2S_AudioStream\Generated_Source\PSoC6</v>
 <v>AudioStream\I2S_AudioStream\Generated_Source\PSoC6\pdl</v>
+<v>AudioStream\I2S_AudioStream\Generated_Source\PSoC6\Clock_1</v>
+<v>AudioStream\I2S_AudioStream\Generated_Source\PSoC6\Counter_1</v>
 <v>AudioStream\I2S_AudioStream\Generated_Source\PSoC6\I2S</v>
 <v>AudioStream\I2S_AudioStream\Generated_Source\PSoC6\Pins and Interrupts</v>
 <v>AudioStream\I2S_AudioStream\Generated_Source\PSoC6\cycodeshareexport.ld</v>
@@ -149,6 +151,7 @@
 <v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541</v>
 <v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Release</v>
 <v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Release\Listing Files</v>
+<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Release\Listing Files\Counter_1.lst</v>
 <v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Release\Listing Files\cy_ble_clk.lst</v>
 <v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Release\Listing Files\cy_efuse.lst</v>
 <v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Release\Listing Files\cy_flash.lst</v>
@@ -168,6 +171,9 @@
 <v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Release\Listing Files\cy_syslib_gcc.lst</v>
 <v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Release\Listing Files\cy_syspm.lst</v>
 <v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Release\Listing Files\cy_systick.lst</v>
+<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Release\Listing Files\cy_tcpwm_counter.lst</v>
+<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Release\Listing Files\cy_tcpwm_pwm.lst</v>
+<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Release\Listing Files\cy_tcpwm_quaddec.lst</v>
 <v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Release\Listing Files\cy_trigmux.lst</v>
 <v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Release\Listing Files\cy_wdt.lst</v>
 <v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Release\Listing Files\cyfitter_cfg.lst</v>
@@ -185,6 +191,7 @@
 <v>AudioStream\I2S_AudioStream\CortexM4\ARM_GCC_541\Release</v>
 <v>AudioStream\I2S_AudioStream\CortexM4\ARM_GCC_541\Release\Listing Files</v>
 <v>AudioStream\I2S_AudioStream\CortexM4\ARM_GCC_541\Release\Listing Files\celt_lpc.lst</v>
+<v>AudioStream\I2S_AudioStream\CortexM4\ARM_GCC_541\Release\Listing Files\Counter_1.lst</v>
 <v>AudioStream\I2S_AudioStream\CortexM4\ARM_GCC_541\Release\Listing Files\cy_ble_clk.lst</v>
 <v>AudioStream\I2S_AudioStream\CortexM4\ARM_GCC_541\Release\Listing Files\cy_efuse.lst</v>
 <v>AudioStream\I2S_AudioStream\CortexM4\ARM_GCC_541\Release\Listing Files\cy_flash.lst</v>
@@ -204,6 +211,9 @@
 <v>AudioStream\I2S_AudioStream\CortexM4\ARM_GCC_541\Release\Listing Files\cy_syslib_gcc.lst</v>
 <v>AudioStream\I2S_AudioStream\CortexM4\ARM_GCC_541\Release\Listing Files\cy_syspm.lst</v>
 <v>AudioStream\I2S_AudioStream\CortexM4\ARM_GCC_541\Release\Listing Files\cy_systick.lst</v>
+<v>AudioStream\I2S_AudioStream\CortexM4\ARM_GCC_541\Release\Listing Files\cy_tcpwm_counter.lst</v>
+<v>AudioStream\I2S_AudioStream\CortexM4\ARM_GCC_541\Release\Listing Files\cy_tcpwm_pwm.lst</v>
+<v>AudioStream\I2S_AudioStream\CortexM4\ARM_GCC_541\Release\Listing Files\cy_tcpwm_quaddec.lst</v>
 <v>AudioStream\I2S_AudioStream\CortexM4\ARM_GCC_541\Release\Listing Files\cy_trigmux.lst</v>
 <v>AudioStream\I2S_AudioStream\CortexM4\ARM_GCC_541\Release\Listing Files\cy_wdt.lst</v>
 <v>AudioStream\I2S_AudioStream\CortexM4\ARM_GCC_541\Release\Listing Files\cyfitter_sysint_cfg.lst</v>
@@ -231,6 +241,7 @@
 <v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541</v>
 <v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Release</v>
 <v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Release\Listing Files</v>
+<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Release\Listing Files\Counter_1.lst</v>
 <v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Release\Listing Files\cy_ble_clk.lst</v>
 <v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Release\Listing Files\cy_efuse.lst</v>
 <v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Release\Listing Files\cy_flash.lst</v>
@@ -250,6 +261,9 @@
 <v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Release\Listing Files\cy_syslib_gcc.lst</v>
 <v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Release\Listing Files\cy_syspm.lst</v>
 <v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Release\Listing Files\cy_systick.lst</v>
+<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Release\Listing Files\cy_tcpwm_counter.lst</v>
+<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Release\Listing Files\cy_tcpwm_pwm.lst</v>
+<v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Release\Listing Files\cy_tcpwm_quaddec.lst</v>
 <v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Release\Listing Files\cy_trigmux.lst</v>
 <v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Release\Listing Files\cy_wdt.lst</v>
 <v>AudioStream\I2S_AudioStream\CortexM0p\ARM_GCC_541\Release\Listing Files\cyfitter_cfg.lst</v>
@@ -267,12 +281,8 @@
 <v>AudioStream\I2S_AudioStream\CortexM4\ARM_GCC_541\Release</v>
 <v>AudioStream\I2S_AudioStream\CortexM4\ARM_GCC_541\Release\Listing Files</v>
 <v>AudioStream\I2S_AudioStream\CortexM4\ARM_GCC_541\Release\Listing Files\celt_lpc.lst</v>
+<v>AudioStream\I2S_AudioStream\CortexM4\ARM_GCC_541\Release\Listing Files\Counter_1.lst</v>
 <v>AudioStream\I2S_AudioStream\CortexM4\ARM_GCC_541\Release\Listing Files\cy_ble_clk.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM4\ARM_GCC_541\Release\Listing Files\cy_efuse.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM4\ARM_GCC_541\Release\Listing Files\cy_flash.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM4\ARM_GCC_541\Release\Listing Files\cy_gpio.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM4\ARM_GCC_541\Release\Listing Files\cy_i2s.lst</v>
-<v>AudioStream\I2S_AudioStream\CortexM4\ARM_GCC_541\Release\Listing Files\cy_ipc_config.lst</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStates>
@@ -297,8 +307,10 @@
 <v>AudioStream\I2S_AudioStream\Power_v1_0\Power_v1_0.pdf</v>
 <v>AudioStream\I2S_AudioStream\Resistor_v1_0</v>
 <v>AudioStream\I2S_AudioStream\Resistor_v1_0\Resistor_v1_0.pdf</v>
-<v>AudioStream\I2S_AudioStream\SysClk_PDL_v1_0.pdf</v>
+<v>AudioStream\I2S_AudioStream\SysClk_PDL_v1_0</v>
+<v>AudioStream\I2S_AudioStream\SysClk_PDL_v1_0\SysClk_PDL_v1_0.pdf</v>
 <v>AudioStream\I2S_AudioStream\SysInt_PDL_v1_0.pdf</v>
+<v>AudioStream\I2S_AudioStream\TCPWM_Counter_PDL_v1_0.pdf</v>
 </ExpandedNodeIds>
 <VisibleNodeIds>
 <v>AudioStream</v>
@@ -316,8 +328,10 @@
 <v>AudioStream\I2S_AudioStream\Power_v1_0\Power_v1_0.pdf</v>
 <v>AudioStream\I2S_AudioStream\Resistor_v1_0</v>
 <v>AudioStream\I2S_AudioStream\Resistor_v1_0\Resistor_v1_0.pdf</v>
-<v>AudioStream\I2S_AudioStream\SysClk_PDL_v1_0.pdf</v>
+<v>AudioStream\I2S_AudioStream\SysClk_PDL_v1_0</v>
+<v>AudioStream\I2S_AudioStream\SysClk_PDL_v1_0\SysClk_PDL_v1_0.pdf</v>
 <v>AudioStream\I2S_AudioStream\SysInt_PDL_v1_0.pdf</v>
+<v>AudioStream\I2S_AudioStream\TCPWM_Counter_PDL_v1_0.pdf</v>
 </VisibleNodeIds>
 </CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237>
 </TreeStatesV2>
@@ -330,7 +344,7 @@
 <CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="100" DocumentName=".\I2S_AudioStream.cydsn\main_cm4.c" />
 </CyGuid_67999771-01c6-4f62-90b3-2054bb36a318>
 <CyGuid_67999771-01c6-4f62-90b3-2054bb36a318 type_name="CyDesigner.Framework.CyBookmark" version="1">
-<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="115" DocumentName=".\I2S_AudioStream.cydsn\main_cm4.c" />
+<CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="118" DocumentName=".\I2S_AudioStream.cydsn\main_cm4.c" />
 </CyGuid_67999771-01c6-4f62-90b3-2054bb36a318>
 <CyGuid_67999771-01c6-4f62-90b3-2054bb36a318 type_name="CyDesigner.Framework.CyBookmark" version="1">
 <CyGuid_a1027fc4-3497-43a6-85d7-b91ffa0029b7 type_name="CyDesigner.Framework.CySerializableMarginIndicator" version="1" LineNumber="102" DocumentName=".\I2S_AudioStream.cydsn\main_cm4.c" />

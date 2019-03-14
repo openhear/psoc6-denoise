@@ -103,7 +103,13 @@ int main(void)
     ringBufferProcess = ringBufferWrite;
     ringBufferOut = 0;
     ringBufferReadyOut = -1;
+    volatile uint counter = 0;
     printf("starting");
+    // int a = CY_SYSCLK_BAD_PARAM;
+    // volatile cy_en_systick_clock_source_t tickclk = Cy_SysTick_GetClockSource();
+    // RTC
+    
+    // Cy_SysClk_StartClkMeasurementCounters();
      /* Initialize the I2S interrupt */
     Cy_SysInt_Init(&I2S_isr_cfg, I2S_isr_Handler);
     NVIC_EnableIRQ(I2S_isr_cfg.intrSrc);
@@ -126,8 +132,17 @@ int main(void)
         }
         // then let it catch up with processing the audio buffers
         if ((ringBufferProcess != ringBufferWrite) && starting == 0) {
+            // __disable_irq();
+            Cy_TCPWM_Counter_Init(Counter_1_HW, Counter_1_CNT_NUM, &Counter_1_config);
+            Cy_TCPWM_Enable_Multiple(Counter_1_HW, Counter_1_CNT_MASK); 
+           
+            Cy_TCPWM_TriggerStart(Counter_1_HW, Counter_1_CNT_MASK); 
+            counter = Cy_TCPWM_Counter_GetCounter(Counter_1_HW, Counter_1_CNT_NUM);
             
             rnnoise_process_frame(st, ringBuffer[ringBufferProcess], ringBuffer[ringBufferProcess]);
+            
+            counter = Cy_TCPWM_Counter_GetCounter(Counter_1_HW, Counter_1_CNT_NUM);
+            // __enable_irq();
             ringBufferReadyOut = ringBufferProcess;
             INC_BUFFER(ringBufferProcess);
             if (ringBufferProcess == 0) {
